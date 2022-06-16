@@ -1,0 +1,524 @@
+{
+    "main": {
+        "title": "siSchedule"
+    },
+    "leftNavigation": {
+        "adminDashboard":"Admin namizje",
+        "dashboard": "Namizje",
+        "absence":"Odsotnost",
+        "settings": "Nastavitve",
+        "logout": "Odjava",
+        "settingsAdmin":"Admin settings",
+        "scheduler":"Razpored",
+        "reports":"Poročila"
+    },
+    "dash": {
+        "settings": "Nastavitve",
+        "logout": "Odjava",
+        "profile": "Profil",
+        "dashboard": "Predogled",
+        "availability":"Razpoložljivost"
+
+    },
+    "updates":"Novosti",
+
+
+    "topNavbar": {
+        "bellGroup": {
+            "confirm_all_viewed": "Označi vse kot prebrano",
+            "confirm_all_title": "Obvestilo",
+            "confirm_all_message": "Pozor, vse dogodke boste označili kot prebrane. Ali želite nadaljevati ?",
+            "confirm_all_number": "Število neoznačenih dogodkov",
+            "no_new_events": "Ni novih dogodkov",
+            "confirm_all": "Označi vse kot prebrano",
+            "toast_title_1": "Uspešno končano",
+            "toast_title_0": "Napaka",
+            "toast_message_0": "Dogodki niso bili označeni kot prebrani",
+            "toast_message_1": "Dogodki so bili označeni kot prebrani"
+        }
+    },
+    "rightMenu": {
+        "bellGroup": {
+            "last_events": "Zadnji dogodki",
+            "no_events": "Ni dogodkov"
+        }
+    },
+    "form": {
+      "close": "Zapri",
+      "cancel": "Prekliči",
+      "save": "Shrani",
+      "req": "Obvezno polje"
+    },
+    "register": {
+        "title": "SiSchedule - Aktivacija uprabnika",
+        "act_errorCode_0": "Aktivacija uporabnika uspešna.",
+        "act_errorCode_1": "Uporabnik je bil že potrjen",
+        "act_errorCode_2": "Ta povezava ne obstaja več",
+        "act_errorCode_3": "Napačen aktivacijski ključ",
+        "act_errorCode_4": "Ta povezava ne obstaja",
+        "act_errorCode_5": "Uporabnik se ni aktiviral.",
+        "act_errorCode_info_error": "Aktivacija uporabnika je neuspešna.",
+        "act_title": "SiSchedule - Aktivacija uporabnika",
+        "toLogin": "Na vstopno stran"
+    },
+
+    "from": "Od",
+    "to": "Do",
+    "day": "Dan",
+    "week": "Teden",
+    "month": "Mesec",
+    "year": "Leto",
+
+    "readableTime": {
+        "year": "leto",
+        "years": "leta",
+        "month": "mesec",
+        "months": "meseci",
+        "day": "dan",
+        "days": "dni",
+        "hour": "ura",
+        "hours": "ur",
+        "minute": "minuta",
+        "minutes": "minut",
+        "second": "sekunda",
+        "seconds": "sekund"
+    },
+
+    "exportSti":{
+        "export": "Izvozi",
+        "exportPDF": "Izvoz v PDF",
+        "exportWord": "Izvoz v Word",
+        "exportExcel": "Izvoz v Excel",
+
+        "send": "Pošlji",
+        "sendPDF": "Pošlji kot PDF",
+        "sendWord": "Pošlji kot Word",
+        "sendExcel": "Pošlji kot Excel"
+    },
+
+    "send_emails": {
+        "title": "Novo spročilo",
+        "dest": "Za",
+        "from": "Od",
+        "kp": "Kp",
+        "skp": "Skp",
+        "subject": "Zadeva",
+        "message": "Sporočilo",
+        "files": "Datoteke",
+        "send": "Pošlji",
+        "info": {
+            "message_1": "Sporočilo je bilo poslano",
+            "message_0": "Sporočilo ni bilo poslano"
+        },
+        "vali": {
+            "message_req": "Vsebina sporočila je obvezna",
+            "dest_req": "Naslov prejemnika je obvezen",
+            "from_req": "Naslov pošilatelja je obvezen",
+            "subject_req": "Naslov sporočila je obvezen"
+        }
+    },
+
+    "no_connection_modal": {
+        "title": "Ni povezave",
+        "message": "Ni povezave s strežnikom.",
+        "no_connection_server": "Ni povezave s strežnikom!!"
+    },
+
+    "updateDbModal": {
+      "title": "Nadgradnja podatkovne zbirke",
+      "message": "POZOR! Izvajate nadgradnjo podatkovne zbirke!",
+      "client": "Stranka",
+      "db_name": "Ime baze",
+      "type": "Tip baze",
+      "db_types": {
+        "1": "Globalna baza",
+        "2": "Client baze"
+      },
+      "version": "Verzija",
+      "update_to": "Nadgradi na",
+      "updating": "Izvajam nadgradnjo",
+      "update": "Nadgradi",
+      "updates": "Nadgradnja",
+      "history": "Zgodovina",
+      "status": "Stanje",
+      "status_codes": {
+        "0": "Uspešno",
+        "1": "Napaka"
+      },
+      "update_message": "Sporočilo",
+      "update_name": "Ime",
+      "update_time": "Čas",
+      "update_user": "Nadgradil",
+
+      "info": {
+        "message_1" : "Nadgradnja uspešno končana",
+        "message_0" : "Nadgradnja ni bila uspešno končana"
+      },
+
+      "user": "Uporabnik",
+      "modtime": "Spremenjeno"
+    },
+
+    "confirm": "Potrdi",
+    "close": "Zapri",
+
+  "days":{
+    "1":"Ponedeljek",
+    "2":"Torek",
+    "3":"Sreda",
+    "4":"Četrtek",
+    "5":"Petek",
+    "6":"Sobota",
+    "7":"Nedelja"
+  },
+
+
+  "dashboard": {
+        "title": "Predogled izmen",
+        "header": "Moje izmene za naslednji teden",
+        "teamheader":"Izmene na deloviščih, kjer sem razporejen",
+        "table": {
+          "date":"Datum",
+          "time":"Čas",
+          "workplace":"Delovno mesto"
+        }
+    },
+  "settings": {
+      "title": "Nastavitve",
+      "header":"Nastavitve",
+      "row_number": "Število vrstic",
+      "menu":{
+        "profile":"Profil",
+        "profile_settings":"Nastavitve profila",
+        "general":"Splošno",
+        "code_list":"Pregled šifranotv",
+        "users":"Uporabniki",
+        "workplaces":"Delovišča",
+        "assignment":"Dodeljevanje nalog",
+        "shiftTemplates":"Predloge izmen"
+      }
+    },
+
+  "users":{
+      "add_new": "Dodaj novega uporabnika",
+      "edit": "Urejanje uporabnika",
+      "only_active":"Prikaži neaktivne",
+      "form":{
+        "username":"Uporabniško ime",
+        "first_name":"Ime",
+        "last_name":"Priimek",
+        "title":"Naziv",
+        "ivz_code":"Ivz številka",
+        "registration_number":"Registracijska številka",
+        "email":"Email",
+        "mobile":"Mobilni telefon",
+        "phone":"Stacionarni telefon",
+        "birthdate":"Rojstni dan",
+        "address":"Naslov",
+        "zip":"Zip",
+        "city":"Mesto",
+        "language":"Jezik",
+        "receives_weekly_report":"Mesečna poročila",
+        "active":"Aktiven",
+        "confirmed":"Potrjen",
+        "employee_type":"Tip delavca",
+        "num_of_weekly_workdays":"Št. delovnih dni v tednu",
+        "max_hours_per_week":"Maksimalno število ur v tednu",
+        "priorities":"Pravice",
+        "can_work_in_divisions":"Delo v oddelkih",
+        "can_administer_divisions":"Administracija oddelkov",
+        "user_availability":"Razpoložljivost",
+        "yearly_leave_days":"Letni dopust",
+        "available":"Na voljo",
+        "unavailable":"Ni na voljo",
+        "day":"Dan",
+        "hour_from":"Od",
+        "hour_to":"Do",
+        "year":"Leto",
+        "leave_days":"Št. dni dopusta",
+        "leave_days_transferred_from_prev_year":"Št. dni starega dopusta",
+        "overtime_hours":"Št. nadur",
+        "change_password_false":"Spremeni geslo",
+        "change_password_true":"Ne spremeni gesla",
+        "old_password":"Staro geslo",
+        "password":"Geslo",
+        "password_confirm":"Potrdi geslo",
+        "validation":{
+          "username_req":"Uporabniško ime je obvezno polje",
+          "username_exist":"Uporabniško ime že obstaja",
+          "first_name_req":"Ime uporabnika je obvezno polje",
+          "last_name_req":"Priimek uporabnika je obvezeno  polje",
+          "email_patt":"Email ni ustrezen",
+          "email_req":"Email je obvezeno polje",
+          "email_exist":"Ta email že obstaja",
+          "language_req":"Jezik je obvezeno polje",
+          "employee_type_req":"Tip delavca je obvezeno polje",
+          "num_of_weekly_workdays_req":"Št. delovnih dni je obvezno polje",
+          "num_of_weekly_workdays_patt":"Vnešeno št. dni je napačno",
+          "max_hours_per_week_req":"Maksimalno število ur v tednu je obvezno polje",
+          "priorities_req": "Pravice so obvezno polje",
+          "can_work_in_divisions_req":"Delo v oddelkih je obvezno polje",
+          "can_administer_divisions_req":"Administracija oddelkov je obvezno polje"
+
+        }
+      },
+      "add_new_availability":"Dodaj razpoložljivost",
+      "add_new_user_leave_days":"Dodaj letni dopust",
+      "info": {
+        "true_message_1": "Uporabnik uspešno ustvarjen",
+        "true_message_0": "Uporabnik ni bil uspešno ustvarjen",
+        "false_message_1": "Uporabnik je bil spremenjen",
+        "false_message_0": "Uporabnik ni bil spremenjen"
+    },
+      "delete":{
+          "title": "Potrditev izbrisa uporabnika",
+          "message": "Izbrisali boste tega uporabnika. Ali želite nadaljevati?",
+          "user_remove_info": "Uporabnikove spremembe in poročila bodo bila izbrisana",
+          "done_1": "Izbris uporabnika uspešen",
+          "done_0": "Izbris uporabnika ni bil uspešen"
+      }
+
+    },
+
+    "workplaces":{
+      "add_new":"Dodaj delovišče",
+      "only_active":"Prikaži neaktivne",
+      "form":{
+        "name":"Ime",
+        "short_name":"Kratko ime",
+        "active":"Aktiven",
+        "divisions":"Oddelki",
+        "description":"Opis",
+        "regular_work":"Redno delo",
+        "monday":"Ponedeljek",
+        "tuesday":"Torek",
+        "wednesday":"Sreda",
+        "thursday":"Četrtek",
+        "friday":"Petek",
+        "saturday":"Sobota",
+        "sunday":"Nedelja",
+        "type_of_work":"Tip dela"
+      },
+      "edit":"Urejanje delovišča",
+      "add_new_item":"Dodaj delovišče",
+      "info": {
+        "true_message_1": "Delovišče uspešno ustvarjeno",
+        "true_message_0": "Delovišče ni bilo ustvarjen",
+        "false_message_1": "Delovišče je bilo spremenjeno",
+        "false_message_0": "Delovišče ni bilo spremenjeno"
+      },
+      "delete":{
+          "title": "Potrditev izbrisa delovišča",
+          "message": "Izbrisali boste Delovišče. Ali želite nadaljevati?",
+          "done_1": "Izbris delovišča uspešen",
+          "done_0": "Izbris delovišča ni bil uspešen"
+      }
+    },
+    "assignments":{
+      "add_new":"Dodaj nalogo",
+      "only_active":"Prikaži neaktivne",
+      "form":{
+        "division":"Skupina",
+        "user":"Uporabnik",
+        "workplace":"Delovišče",
+        "skill":"Veščine",
+        "default_assignment":"Privzeta dodelitev",
+        "created":"Ustvarjeno",
+        "modified":"Spremenjeno"
+
+
+      },
+      "edit":"Urejanje naloge",
+      "add_new_item":"Dodaj Nalogo",
+      "info": {
+        "true_message_1": "Naloga uspešno ustvarjeno",
+        "true_message_0": "Naloga ni bila ustvarjena",
+        "false_message_1": "Naloga je bila spremenjena",
+        "false_message_0": "Naloga ni bila spremenjena"
+      },
+      "delete":{
+          "title": "Potrditev izbrisa naloge",
+          "message": "Izbrisali boste nalogo. Ali želite nadaljevati?",
+          "done_1": "Izbris naloge uspešen",
+          "done_0": "Izbris naloge ni bil uspešen"
+      }
+    },
+    "toastr": {
+      "title_0": "Napaka",
+      "title_1": "Uspešno končano",
+      "delete": "Izbris"
+  },
+  "delete": {
+    "delete": "Izbriši",
+    "cancel": "Prekliči",
+    "done_title": "Izbriši"
+},
+
+"absence":{
+  "division":"Skupina",
+  "row_number":"Število vrstic",
+  "add_new_item":"Dodaj odsotnost",
+  "add_new":"Dodaj odsotnost",
+  "edit":"Urejanje odsotnosti",
+  "form":{
+    "start_time":"Začetni čas",
+    "end_time":"Končni čas",
+    "absentee": "Zaposleni",
+    "code":"Odsotnost",
+    "absence_type":"Vrsta odsotnosti",
+    "all_day_absence":"Celodnevna odsotnost",
+    "approved":"Potrjeno",
+    "approved_date":"Potrjeno dne",
+    "number_of_days":"Št. dni",
+    "start_date":"Začetni datum",
+    "end_date":"Končni datum"
+  },
+  "info": {
+    "true_message_1": "Odsotnost uspešno ustvarjeno",
+    "true_message_0": "Odsotnost ni bila ustvarjena",
+    "false_message_1": "Odsotnost je bila spremenjena",
+    "false_message_0": "Odsotnost ni bila spremenjena"
+  },
+  "delete":{
+      "title": "Potrditev izbrisa odsotnosti",
+      "message": "Izbrisali boste odsotnost. Ali želite nadaljevati?",
+      "done_1": "Izbris odsotnosti uspešen",
+      "done_0": "Izbris odsotnosti ni bil uspešen"
+  }
+
+},
+
+"adminsettings":{
+  "row_number":"Število vrstic",
+  "menu":{
+    "divisions":"Skupina",
+    "employeetypes":"Tip zaposlitve",
+    "absencetype":"Tip odsotnosti",
+    "shifts":"Izmene",
+    "logins":"Prijave uporabnikov",
+    "settings":"Nastavitve"
+  }
+},
+
+"divisions":{
+  "row_number":"Število vrstic",
+  "add_new":"Dodaj Skupina",
+  "form":{
+    "id":"Id",
+    "name":"Ime",
+    "phone":"Telefon",
+    "address":"Naslov",
+    "zip":"Zip",
+    "city":"Mesto",
+    "country":"Država",
+    "automatic_accept_approwed_shifts":"Samodejno sprejmi potrejno izmeno"
+  },
+  "info": {
+    "true_message_1": "Skupina uspešno ustvarjen",
+    "true_message_0": "Skupina ni bil ustvarjen",
+    "false_message_1": "Skupina je bil spremenjen",
+    "false_message_0": "Skupina ni bil spremenjen"
+  },
+  "delete":{
+      "title": "Potrditev izbrisa oddelka",
+      "message": "Izbrisali boste Skupina. Ali želite nadaljevati?",
+      "done_1": "Izbris oddelka uspešen",
+      "done_0": "Izbris oddelka ni bil uspešen"
+  }
+
+},
+
+"availability":{
+  "header":"Razpoložljivost"
+},
+
+"scheduler":{
+  "header":"Razpored",
+  "save_planned_schedule":"Potrdi planiran razpored",
+  "add_plan_from_template":"Dodaj razpored iz predloge",
+  "delete_plan":"Izbriši razpored",
+  "select_workplace":"Izberi delovno mesto",
+  "select_user":"Izberi Uporabnika",
+  "select_time_template":"Časovne predloge",
+  "select_from":"Od",
+  "select_to":"Do",
+  "repeat_shift":"Ponovi izmeno",
+  "everyworkday":"Delovni dan",
+  "everyday":"Dan",
+  "week":"Teden",
+  "month":"Mesec",
+  "year":"Leto",
+  "end_repeat_on":"Končaj dne",
+  "showAvailibility":"Prikaži razpoložljivosti",
+  "showAbsences":"Prikaži odsotnosti",
+  "typeOfWork":"Tip dela",
+  "approve_shift":"Potrdi izmene",
+  "approve":"Potrdi",
+  "cancel":"Prekliči",
+  "approve_shifts":{
+    "title":"Potrditev razporeda",
+    "success":"Uspešno potrjeno",
+    "question":"Vnesite obdobje v katerem želite potrditi izmene."
+  },
+  "delete":{
+    "title":"Izbris izmen",
+    "question":"Vnesite obdobje v katerem želite izbrisati izmene.",
+    "success":"Uspešno izbrisano"
+  }
+
+},
+
+"admindashboard":{
+  "schedule_users":"Izmene po deloviščih",
+  "statistics":"Statistika",
+  "absences":"Nepotrjene odsotnosti"
+},
+
+"scheduleusr":{
+  "workweek": "Delovni teden",
+  "week":"Teden",
+  "month":"Mesec"
+},
+
+"shiftTemplates":{
+  "add_new":"Dodaj predlogo",
+  "shift_to_template":"Dodaj izmeno v predlogo",
+  "start":"Začetek",
+  "finish":"Konec",
+  "workplace":"Delovišče",
+  "skill_group":"Spretnost",
+  "select_days":"Izberi dan",
+  "repeat":"Dnevna ponovitev",
+  "enter_repeat":"Št. ponovitev",
+  "generate_shifts":"Dodaj izmeno",
+  "division":"Skupina",
+  "form":{
+    "name":"Ime",
+    "division_name":"Skupina",
+    "description":"Opis",
+    "select_division":"Izberi skupino",
+    "insert_name":"Vnesi ime",
+    "insert_description":"Vnesi opis",
+    "missing_data_message":"Vpišite Ime in izberite skupino",
+    "missing_data_title":"Premalo vnešenih podatkov"
+
+  },
+  "info": {
+    "true_message_1": "Predloga uspešno ustvarjena",
+    "true_message_0": "Predloga ni bila ustvarjena",
+    "false_message_1": "Predloga je bila spremenjena",
+    "false_message_0": "Predloga ni bila spremenjena"
+  },
+  "delete":{
+      "title": "Potrditev izbrisa predloge",
+      "message": "Izbrisali boste predlogo. Ali želite nadaljevati?",
+      "done_1": "Izbris predloge uspešen",
+      "done_0": "Izbris predloge ni bil uspešen"
+  }
+}
+
+
+
+
+
+}

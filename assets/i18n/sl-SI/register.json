@@ -1,0 +1,40 @@
+{
+
+    "go_home": "Na vstopno stran",
+    "toast_title_0": "Napaka",
+    "toast_title_1": "Uspešno končano",
+
+
+    "activate": {
+        "title": "Aktivacija uporabnika",
+
+        "codes": {
+            "0": "Aktivacija uporabnika je bila uspešna",
+            "1": "Ta uporabnik je bil že potrjen",
+            "2": "Ta povezava ne obstaja več",
+            "3": "Napačen aktivacijski ključ",
+            "4": "Ta povezava ne obstaja",
+            "5": "Uporabnik ni bil aktiviran"
+        }
+    },
+
+    "fpassword": {
+        "title": "Poenostavitev gesla",
+        "fpasserror" : "Ta povezava in več aktivna",
+        "message": "Vnesite novo geslo",
+        "change_pass": "Spremeni geslo",
+        "form": {
+            "password": "Novo geslo",
+            "password_confirm": "Potrditev gesla",
+            "vali": {
+                "pass_req": "Geslo je obvezno!",
+                "pass_c_req": "Potrditev gesla je obvezna!",
+                "pass_c_wrong": "Geslo se ne ujema!"
+            }
+        },
+        "info": {
+            "message_1": "Geslo je bilo spremenjeno",
+            "message_0": "Geslo ni bilo poenostavljeno"
+        }
+    }
+}

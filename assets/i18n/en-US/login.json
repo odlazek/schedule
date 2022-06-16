@@ -1,0 +1,53 @@
+{
+    "login_title": "Login",
+    "login_subtitle": "Sign in with your account",
+    "username": "Username",
+    "password": "Password",
+    "button_title": "Login",
+    "forgot_password": "Forgotten password",
+
+    "cancel": "Cancel",
+    "fpass": {
+        "title": "Forgotten password",
+        "message": "Enter your email to which we will send you a password recovery message.",
+        "email": "Email",
+        "email_short": "Email",
+        "send_email": "Send",
+        "vali": {
+            "email_req": "Email is required!",
+            "email_notexist": "This email does not exist!",
+            "email_patt": "The email is invalid.",
+            "invalid": "Invalid email",
+            "dontexist": "User does not exist with this email"
+        },
+        "send": {
+            "1": "Recovery message sent successfully",
+            "0": "Renewal message not sent"
+        },
+        "errors": {
+            "0": "Message successfully sent",
+            "10": "No email provided",
+            "11": "User does not exist with this e-mail",
+            "12": "Message Not Sent"
+        }
+    },
+
+    "username_req": "Username required",
+    "password_req": "Password required",
+
+    "username_notexist": "This username does not exist",
+    "username_notactive": "This user is inactive",
+    "client_notactive": "The client is inactive",
+    "password_wrong": "Wrong password",
+    "keepmeloggedin": "Stay logged in",
+
+    "errors": {
+        "0": "No Error",
+        "1": "",
+        "2": "Wrong password",
+        "3": "System error: Challange call required!",
+        "4": "This user does not exist",
+        "5": "This user is inactive!",
+        "6": "User client inactive!"
+    }
+}

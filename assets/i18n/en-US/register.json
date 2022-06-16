@@ -1,0 +1,40 @@
+{
+
+    "go_home": "To the homepage",
+    "toast_title_0": "Error",
+    "toast_title_1": "Successfully completed",
+
+
+    "activate": {
+        "title": "User Activation",
+
+        "codes": {
+            "0": "User activation successful",
+            "1": "This user has already been confirmed",
+            "2": "This link no longer exists",
+            "3": "Incorrect activation key",
+            "4": "This link does not exist",
+            "5": "User not activated"
+        }
+    },
+
+    "fpassword": {
+        "title": "Password simplification",
+        "fpasserror": "This link and more active",
+        "message": "Enter a new password",
+        "change_pass": "Change password",
+        "form": {
+            "password": "New password",
+            "password_confirm": "Password confirmation",
+            "vali": {
+                "pass_req": "Password is required!",
+                "pass_c_req": "Password confirmation is required!",
+                "pass_c_wrong": "The password does not match!"
+            }
+        },
+        "info": {
+            "message_1": "Password changed",
+            "message_0": "Password not simplified"
+        }
+    }
+}

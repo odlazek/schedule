@@ -1,0 +1,53 @@
+{
+    "login_title" : "Prijava",
+    "login_subtitle" : "Prijavite se z vašim uporabniškim računom",
+    "username" : "Uporabniško ime",
+    "password" : "Geslo",
+    "button_title" : "Prijava",
+    "forgot_password" : "Pozabljeno geslo",
+
+    "cancel": "Prekliči",
+    "fpass": {
+        "title": "Pozabljeno geslo",
+        "message": "Vnesite vašo elektronsko pošto na katero vam bomo poslali sporočilo za obnovitev gesla.",
+        "email": "Elekronska pošta",
+        "email_short": "Email",
+        "send_email": "Pošlji",
+        "vali": {
+            "email_req": "Elektronska pošta je obvezna!",
+            "email_notexist": "Ta elektronska pošta ne obstaja!",
+            "email_patt": "Elektronska pošta je neveljavna.",
+            "invalid": "Neveljavna elektronska pošta",
+            "dontexist": "Uporabnik z to elekronsko pošto ne obstaja"
+        },
+        "send": {
+            "1": "Obnovitevno sporočilo uspešno poslano",
+            "0": "Obnovitevno sporočilo ni bilo poslano"
+        },
+        "errors": {
+            "0": "Sporočilo uspešno poslano",
+            "10": "Ni podane ektronske pošte",
+            "11": "Uporabnik z to elektronso pošto ne obstaja",
+            "12": "Sporočilo ni bilo poslano"
+        }
+    },
+
+    "username_req" : "Uporabniško ime je obvezno",
+    "password_req" : "Geslo je obvezno",
+
+    "username_notexist" : "To uporabniško ime ne obstaja",
+    "username_notactive" : "Ta uporabnik je neaktiven",
+    "client_notactive" : "Stranka je neaktivna",
+    "password_wrong" : "Napačno geslo",
+    "keepmeloggedin" : "Ostani prijavljen",
+
+    "errors": {
+        "0": "Ni napake",
+        "1": "",
+        "2": "Napačno geslo",
+        "3": "Sistemska napaka: Potreben challange klic!",
+        "4": "Ta uporabnik ne obstaja",
+        "5": "Ta uporabnik je neaktiven!",
+        "6": "Stranka uporabnika je neaktivna!"
+    }
+}

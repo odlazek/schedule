@@ -1,0 +1,424 @@
+{
+    "main": {
+        "title": "siSchedule"
+    },
+    "leftNavigation": {
+        "dashboard": "Preview",
+        "absence":"Absence",
+        "settings": "Settings",
+        "logout": "Logout",
+        "settingsAdmin":"Admin settings",
+        "scheduler":"Scheduler",
+        "reports":"Reports"
+    },
+    "dash": {
+        "settings": "Settings",
+        "logout": "Logout",
+        "profile": "Profile",
+        "dashboard": "Dashboard",
+        "availability":"Availability"
+
+    },
+    "updates":"Updates",
+    "adminDash":{
+        "client_name": "Client",
+        "num_active": "Number of active places",
+        "num_responsive": "number of responsive places",
+        "oldest_res_time": "Oldest response time < 2 months",
+        "location_name": "Location name",
+        "location_desc": "Location description",
+        "place": "Place",
+        "place_desc": "Place description",
+        "place_status": "Place status",
+        "place_alarm": "Last alarm",
+        "num_active_tooltip": "% of active places",
+        "num_responsive_tooltip":"% of responsive places among active places",
+        "oldest_res_time_tooltip":"Oldest response time among active places"
+    },
+    "topNavbar": {
+        "bellGroup": {
+            "confirm_all_viewed": "Mark everyting as viewed",
+            "confirm_all_title": "Notice",
+            "confirm_all_message": "Attention, you will mark all events as viewed. Do you want to continue ?",
+            "confirm_all_number": "Number of unviewed events",
+            "no_new_events": "No new events",
+            "confirm_all": "Mark everything as viewed",
+            "toast_title_1": "Successfully completed",
+            "toast_title_0": "Error",
+            "toast_message_0": "Events were not marked as viewed",
+            "toast_message_1": "Events marked as viewed"
+        }
+    },
+    "rightMenu": {
+        "bellGroup": {
+            "last_events": "Recent Events",
+            "no_events": "No events"
+        }
+    },
+    "form": {
+      "close": "Close",
+      "cancel": "Cancel",
+      "save": "Save",
+      "req": "Required field"
+    },
+    "register": {
+        "title": "SiSchedule - User Activation",
+        "act_errorCode_0": "User activation successful.",
+        "act_errorCode_1": "The user has already been confirmed",
+        "act_errorCode_2": "This link no longer exists",
+        "act_errorCode_3": "Incorrect activation key",
+        "act_errorCode_4": "This link does not exist",
+        "act_errorCode_5": "The user did not activate.",
+        "act_errorCode_info_error": "User activation failed.",
+        "act_title": "SiSchedule - User Activation",
+        "toLogin": "To the homepage"
+    },
+    "chartLang": {
+        "windChart": "Wind rose",
+        "windDirections": "[\" N \", \" NNE \", \" NE \", \" ENE \", \" E \", \" ESE \", \" SE \", \" SSE \", \" S \", \" SSW \", \" SW \", \" WSW \", \" W \", \" WNW \", \" NW \", \" NNW \"]",
+        "noData": "No data to display",
+        "loading": "Loading ...",
+        "shortMonths": "[\" Jan \", \" Feb \", \" Mar \", \" Apr \", \" May \", \" Jun \", \" Jul \", \" Aug \", \" Sep \", \" Oct \", \" Nov \", \" Dec \"]",
+        "weekdays": "[\" Sunday \", \" Monday \", \" Tuesday \", \" Wednesday \", \" Thursday \", \" Friday \", \" Saturday \"]",
+        "months": "[\" January \", \" February \", \" March \", \" April \", \" May \", \" June \", \" July \", \" August \", \" September \", \" October \", \" November \", \" December \"]",
+        "downloadCSV": "Export CSV",
+        "downloadJPEG": "Export JPEG Image",
+        "downloadPDF": "Export to PDF",
+        "downloadPNG": "Export PNG Image",
+        "downloadSVG": "Export SVG Image",
+        "downloadXLS": "Export XLS",
+        "invalidDate": "Wrong date",
+        "resetZoom": "Reset zoom",
+        "printChart": "Print chart",
+        "viewFullscreen": "Full screen view",
+        "viewData": "View data"
+    },
+
+    "from": "From",
+    "to": "To",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year",
+
+    "readableTime": {
+        "year": "year",
+        "years": "years",
+        "month": "month",
+        "months": "months",
+        "day": "day",
+        "days": "days",
+        "hour": "hour",
+        "hours": "hours",
+        "minute": "minute",
+        "minutes": "minutes",
+        "second": "second",
+        "seconds": "seconds"
+    },
+
+    "exportSti":{
+        "export": "Export",
+        "exportPDF": "Export to PDF",
+        "exportWord": "Export to Word",
+        "exportExcel": "Export to Excel",
+
+        "send": "Send",
+        "sendPDF": "Send as PDF",
+        "sendWord": "Send as Word",
+        "sendExcel": "Send as Excel"
+    },
+
+    "send_emails": {
+        "title": "New Message",
+        "dest": "For",
+        "from": "From",
+        "kp": "Kp",
+        "skp": "Skp",
+        "subject": "Subject",
+        "message": "Message",
+        "files": "Files",
+        "send": "Send",
+        "info": {
+            "message_1": "Message sent",
+            "message_0": "Message not sent"
+        },
+        "vali": {
+            "message_req": "The content of the message is required",
+            "dest_req": "Reciever address is required",
+            "from_req": "Sender's address is required",
+            "subject_req": "Message title is required"
+         }
+    },
+
+    "no_connection_modal": {
+        "title": "No connection",
+        "message": "No connection with server!!",
+        "no_connection_server": "No connection with server!!"
+    },
+
+    "confirm": "Confirm",
+    "close": "Close",
+
+    "days":{
+      "1":"Monday",
+      "2":"Tuesday",
+      "3":"Wednesday",
+      "4":"Thursday",
+      "5":"Friday",
+      "6":"Saturday",
+      "7":"Sunday"
+    },
+    "dashboard": {
+      "title": "Shift overview",
+      "header": "My shifts next week",
+      "table": {
+        "date":"Date",
+        "time":"Time",
+        "workplace":"Workplace"
+      }
+  },
+  "settings": {
+    "title": "Settings",
+    "header":"Settings",
+    "row_number": "Row number",
+    "menu":{
+      "profile":"Profile",
+      "profile_settings":"Edit profile",
+      "general":"General",
+      "code_list":"Edit lists",
+      "users":"Users",
+      "workplaces":"Workplaces",
+      "assignment":"Assignments"
+    }
+  },
+
+  "users":{
+    "add_new": "Add new user",
+    "edit": "Edit user",
+    "only_active":"Show inactive",
+    "form":{
+      "username":"Username",
+      "first_name":"First name",
+      "last_name":"Last name",
+      "title":"Title",
+      "ivz_code":"Ivz number",
+      "registration_number":"Registration number",
+      "email":"Email",
+      "mobile":"Mobile phone",
+      "phone":"Phone",
+      "birthdate":"Birthday",
+      "address":"Address",
+      "zip":"Zip",
+      "city":"City",
+      "language":"Language",
+      "receives_weekly_report":"Receive weekly report",
+      "active":"Active",
+      "confirmed":"Confirmed",
+      "employee_type":"Employee type",
+      "num_of_weekly_workdays":"Number of weekly workdays",
+      "max_hours_per_week":"Max hours per week",
+      "priorities":"Permissions",
+      "can_work_in_divisions":"Can work in divisions",
+      "can_administer_divisions":"Can administer divisions",
+      "user_availability":"Availability",
+      "yearly_leave_days":"Annual leave",
+      "available":"Available",
+      "unavailable":"Unavailable",
+      "day":"Day",
+      "hour_from":"From",
+      "hour_to":"To",
+      "year":"Year",
+      "leave_days":"Number of leave days",
+      "leave_days_transferred_from_prev_year":"Annual leave from previous year",
+      "overtime_hours":"Number of overtime hours",
+      "change_password_false":"Change password",
+      "change_password_true":"Don't change password",
+      "old_password":"Old password",
+      "password":"Password",
+      "password_confirm":"Confirm password",
+      "validation":{
+        "username_req":"Username is a required field",
+        "username_exist":"Username already exists",
+        "first_name_req":"First name is a required field",
+        "last_name_req":"Last name is a required field",
+        "email_patt":"This is not a valid email address",
+        "email_req":"Email is a required field",
+        "email_exist":"Email already exists",
+        "language_req":"Language is a required field",
+        "employee_type_req":"Employee type is a required field",
+        "num_of_weekly_workdays_req":"Number of weekly workdays is a required field",
+        "num_of_weekly_workdays_patt":"Incorrect number",
+        "max_hours_per_week_req":"Max hours per week is a required field",
+        "priorities_req": "Permissions is a required field",
+        "can_work_in_divisions_req":"Can work in divisions is a required field",
+        "can_administer_divisions_req":"Can administer divisions is a required field"
+
+      }
+    },
+    "add_new_availability":"Add new availability",
+    "add_new_user_leave_days":"Add annual leave",
+    "info": {
+         "true_message_1": "New user created successfully",
+         "true_message_0": "User was not created successfully",
+         "false_message_1": "User changed",
+         "false_message_0": "User was not changed"
+     },
+     "delete": {
+         "title": "Confirm User Deletion",
+         "message": "You will delete this user. Do you want to continue?",
+         "user_remove_info": "User changes and reports will be deleted",
+         "done_1": "Delete user successful",
+         "done_0": "Failed to delete user"
+     }
+  },
+  "workplaces":{
+    "add_new":"Add new workplace",
+    "only_active":"Show inactive",
+    "form":{
+      "name":"Name",
+      "short_name":"Short name",
+      "active":"Active",
+      "divisions":"Divisions",
+      "description":"Description",
+      "regular_work":"Regular work",
+      "monday":"Monday",
+      "tuesday":"Tuesday",
+      "wednesday":"Wednesday",
+      "thursday":"Thursday",
+      "friday":"Friday",
+      "saturday":"Saturday",
+      "sunday":"Sunday",
+      "type_of_work":"Type of work"
+    },
+    "edit":"Edit workplace",
+    "add_new_item":"Add workplace",
+    "info": {
+      "true_message_1": "Workplace was successfully created",
+      "true_message_0": "Workplace was not created successfully",
+      "false_message_1": "Workplace changed",
+      "false_message_0": "Workplace was not changed"
+  },
+  "delete": {
+      "title": "Confirm workplace Deletion",
+      "message": "You will delete this workplace. Do you want to continue?",
+      "user_remove_info": "Workplace changes and reports will be deleted",
+      "done_1": "Deleted workplace successfully",
+      "done_0": "Failed to delete workplace"
+  }
+  },
+  "assignments":{
+    "add_new":"Add assignment",
+    "only_active":"Show inactiv",
+    "form":{
+      "division":"Division",
+      "user":"User",
+      "workplace":"Workplace",
+      "skill":"Skill",
+      "default_assignment":"Default assignment",
+      "created":"Created",
+      "modified":"Modified"
+
+
+    },
+    "edit":"edit assignment",
+    "add_new_item":"Add assignment",
+    "info": {
+      "true_message_1": "Assignment was successfully created",
+      "true_message_0": "Assignment was not created successfully",
+      "false_message_1": "Assignment changed",
+      "false_message_0": "Assignment was not changed"
+  },
+  "delete": {
+      "title": "Confirm assignment deletion",
+      "message": "You will delete this assignment. Do you want to continue?",
+      "user_remove_info": "Assignment changes and reports will be deleted",
+      "done_1": "Deleted assignment successfully",
+      "done_0": "Failed to delete assignment"
+  }
+  },
+
+  "toastr": {
+    "title_false": "Error",
+    "title_true": "Success",
+    "delete": "Delete"
+  },
+  "delete": {
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "done_title": "Delete"
+  },
+  "absence":{
+    "division":"Division",
+    "row_number":"Row number",
+    "add_new_item":"Add absence",
+    "edit":"Edit absence",
+    "form":{
+      "start_time":"Start time",
+      "absentee": "Absentee",
+      "code":"Code",
+      "absence_type":"Absence type",
+      "all_day_absence":"All day absence",
+      "approved":"Approved",
+      "approved_date":"Approved date",
+      "number_of_days":"Number of days",
+      "start_date":"Start date",
+      "end_date":"End date"
+    },
+    "info": {
+      "true_message_1": "Absence was successfully created",
+      "true_message_0": "Absence was not created successfully",
+      "false_message_1": "Absence changed",
+      "false_message_0": "Absence was not changed"
+  },
+  "delete": {
+      "title": "Confirm absence deletion",
+      "message": "You will delete this absence. Do you want to continue?",
+      "user_remove_info": "Absence changes and reports will be deleted",
+      "done_1": "Deleted absence successfully",
+      "done_0": "Failed to delete absence"
+  }
+
+  },
+  "adminsettings":{
+    "row_number":"Row number",
+    "menu":{
+      "divisions":"Divisions"
+    }
+  },
+  "divisions":{
+  "row_number":"Row number",
+  "add_new":"Add divisions",
+  "form":{
+    "id":"Id",
+    "name":"Name",
+    "phone":"Phone",
+    "address":"Address",
+    "zip":"Zip",
+    "city":"City",
+    "country":"Country",
+    "automatic_accept_approwed_shifts":"automatically accept approwed shifts"
+  },
+  "info": {
+    "true_message_1": "Division was successfully created",
+    "true_message_0": "Division was not created successfully",
+    "false_message_1": "Division changed",
+    "false_message_0": "Division was not changed"
+},
+"delete": {
+    "title": "Confirm division deletion",
+    "message": "You will delete this division. Do you want to continue?",
+    "user_remove_info": "Division changes and reports will be deleted",
+    "done_1": "Deleted division successfully",
+    "done_0": "Failed to delete division"
+  }
+  },
+
+  "availability":{
+    "header":"Availability"
+  },
+
+  "scheduler":{
+    "header":"Scheduler"
+  }
+
+}
